@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            Button buttonNavigationDrawer = (Button) rootView.fi
             return rootView;
         }
     }
